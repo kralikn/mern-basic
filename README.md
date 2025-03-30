@@ -164,6 +164,7 @@ Create a .env file in the backend folder (or root, depending on setup) and defin
 
 ```ini
 MONGO_URI=your_mongo_connection_string
+PORT=5000
 ```
 
 Make sure to load it using dotenv.config() in `server.js`.
