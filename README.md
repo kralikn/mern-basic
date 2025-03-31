@@ -17,7 +17,7 @@ Start by creating the following folder structure:
 
 ## 🛠️ Initialize the Project
 
-In the root directory, initialize a new Node.js project:
+In the `root` directory, initialize a new Node.js project:
 
 ```bash
 npm init -y
@@ -25,7 +25,7 @@ npm init -y
 
 ## 📦 Install Backend Dependencies
 
-Install the core backend libraries in the `backend` folder:
+Install the core backend libraries in the `root` folder:
 
 ```bash
 npm install express mongoose dotenv
@@ -46,7 +46,8 @@ In the root package.json file, add the following script:
 ```json
 "scripts": {
   "dev": "nodemon backend/server.js"
-}
+},
+"type": "module",
 ```
 
 ## ▶️ Start the Development Server
